@@ -12,6 +12,7 @@ message UnityWebsocketMessage {
     LogLine logs = 6;
     Deployments deployments = 7;
     Uninstall uninstall = 8;
+    UninstallStatus uninstallstatus = 9;
   }
 }
 
@@ -115,4 +116,10 @@ message LogLine {
   string level = 2;
   string timestamp = 3;
   string type = 4;
+}
+
+message UninstallStatus{
+  string DeploymentName = 1;
+  string Application = 2;
+  string DisplayName = 3;
 }
