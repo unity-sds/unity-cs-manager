@@ -41,5 +41,4 @@ message MarketplaceMetadata {
   string PostInstall = 17;
   string PreInstall = 18;
   Defaultdeployment DefaultDeployment = 14;
-  map<string, string> Dependencies = 19;
 }
