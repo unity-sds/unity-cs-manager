@@ -1,6 +1,6 @@
 module github.com/unity-sds/unity-cs-manager
 
-go 1.17
+go 1.20
 
 require (
 	github.com/google/go-github/v47 v47.0.0
