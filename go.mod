@@ -1,12 +1,13 @@
 module github.com/unity-sds/unity-cs-manager
 
-go 1.17
+go 1.20
 
 require (
 	github.com/google/go-github/v47 v47.0.0
 	github.com/hashicorp/hcl/v2 v2.11.1
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.11.0
+	google.golang.org/protobuf v1.28.0
 )
 
 require (
