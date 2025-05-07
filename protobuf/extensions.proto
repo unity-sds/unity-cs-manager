@@ -80,7 +80,6 @@ message Config {
     string MarketplaceUser = 3;
     string Project = 4;
     string Venue = 5;
-    string Version = 6;
   }
 
   message NetworkConfig {
@@ -93,7 +92,6 @@ message Config {
   string lastupdated = 3;
   string updatedby = 4;
   string bootstrap = 5;
-  string version = 6;
 
 }
 
